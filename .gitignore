@@ -1,3 +1,4 @@
 # ignore config files
 *.ini
 .wallpaper
+*.bat
