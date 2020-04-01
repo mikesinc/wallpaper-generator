@@ -20,7 +20,7 @@ def getImage():
     directory = os.getcwd() + "/.wallpaper"
     if not os.path.exists(directory):
         os.makedirs(directory)
-    filepath = directory + "/" + "daily_wallpaper" + ".jpeg"
+    filepath = directory + "/" + "daily_wallpaper" + ".png"
     screensize = getScreensize()
     try:
         reddit = praw.Reddit('bot1', user_agent='Wallpaper Extraction (by /u/reqr)')
